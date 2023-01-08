@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# 100-matrix_mul.py
-# Francis Mwangi <alxschool.com>
 """Defines a matrix multiplication function."""
 
 
