@@ -1,18 +1,19 @@
 #!/usr/bin/python3
-""" File contains func that reads from a file """
+""" File contains a function that writes to a text file
+"""
 
 
-def read_file(filename=""):
-    """ Func that reads frm a file
+def write_file(filename="", text=""):
+    """ Func that writes to a text file
 
     Args:
         filename: filename
+        text: text to write
 
     Raises
-        Exception: when the file can be opened
+        Exception: when file can be opened
 
     """
 
-    with open(filename, 'r', encoding="utf-8") as f:
-        read_data = f.read()
-        print(read_data, end='')
+    with open(filename, 'w', encoding="utf-8") as f:
+        return f.write(text)
