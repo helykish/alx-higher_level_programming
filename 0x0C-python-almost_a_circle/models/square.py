@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains a square class"""
+"""This is file contains a sqr class"""
 
 from models.rectangle import Rectangle
 
