@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 1-main """
+""" task 1 """
 from models.rectangle import Rectangle
 
 if __name__ == "__main__":
