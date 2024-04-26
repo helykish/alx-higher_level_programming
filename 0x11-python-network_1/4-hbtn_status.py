@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-requests model
+script requests model
 """
 
 if __name__ == '__main__':
