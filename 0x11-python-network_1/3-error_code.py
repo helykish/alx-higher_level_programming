@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""A script that:
-- takes in a URL,
+"""Write a script which:
+- check in a URL,
 - sends a request to the URL
-- displays the body of the response (decoded in utf-8).
+- show the body of the response (decoded in utf-8).
 """
 
 
